@@ -276,7 +276,8 @@ function unsubscribe() {
     console.log('Error unsubscribing', error);
   });
 }
-window.onbeforeinstallform = function() {
+window.onbeforeinstallprompt = function() {
   prompt();
+  console.log('_________________________add to homescreen_________');
 }
 })();
