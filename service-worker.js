@@ -1,4 +1,4 @@
-images/snowvar dataCacheName = 'weatherData-v7';
+var dataCacheName = 'weatherData-v7';
 var cacheName = 'weatherPWA-step-7-1';
 var filesToCache = [
   '/',
