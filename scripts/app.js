@@ -276,5 +276,7 @@ function unsubscribe() {
     console.log('Error unsubscribing', error);
   });
 }
-
+window.onbeforeinstallform = function() {
+  prompt();
+}
 })();
